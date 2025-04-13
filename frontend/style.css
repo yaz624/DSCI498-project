@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.input-area, .result-area, .feedback-area {
+  margin-bottom: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input, select, textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#loadingMessage {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#resultContainer {
+  margin-top: 20px;
+}
+
+#resultContainer img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+#regenerateButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
